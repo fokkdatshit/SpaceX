@@ -149,18 +149,36 @@ body
       width: 100%
 
 @media (max-width: 576px)
+   body
+      padding-top: 10px
+   .main
+      padding-top: 30px
+   .title
+      font-size: 50px
    .rocket
       position: static
       margin-bottom: 30px
+      max-width: 100px
+
    .table
       margin-bottom: 0
    .table-column
       font-size: 14px
       width: 150px
+   .features
+      padding: 0
+      &-title
+         font-size: 21px
+         max-width: 300px
+         margin-bottom: 20px
+      &-text
+         font-size: 12px
+         line-height: 21px
    .footer
       text-align: center
-      padding-top: 50px
-
+      padding: 30px 0
+      &-text
+         font-size: 14px
    .footer-nav .list
       flex-wrap: wrap
       align-items: center
